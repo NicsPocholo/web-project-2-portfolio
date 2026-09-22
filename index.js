@@ -12,3 +12,4 @@ form.addEventListener("submit", function(event) {
         "Thank you, " + name + "! Your message has been received.";
 
 });
+
