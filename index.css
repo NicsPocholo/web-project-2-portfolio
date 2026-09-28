@@ -181,34 +181,42 @@ img{
     
 }
 
+
 .form{
-    display:flex;
-    flex-direction: row;
+    background-color: #000000;
+    padding:5px;
+   
 }
 
 input{
-     border: none;
+    padding:5px;
     border-bottom: 2px solid white;
     outline: none;
     background: transparent;
     color: white;
     width: 100%;
+     border-radius: 5px;
 }
 
 textarea{
+    padding:5px;
      border: none;
     border-bottom: 2px solid white;
     outline: none;
     background: transparent;
     color: white;
     width: 100%;
+     border-radius: 5px;
 }
 
 button {
     width: 100px;
-    height: 40px;
+    height: 30px;
     display: block;
     margin: auto;
+    text-shadow: 1px 1px 2px rgb(61, 37, 37);
+    box-shadow: -2px 1px 5px 2px rgb(54, 38, 38);
+    
 }
 
 /* CONTACT DONE */
@@ -245,12 +253,14 @@ footer{
     .images {
         gap: 30px;
         padding: 50px 30px;
+        
     }
 
     .images img {
         width: 120px;
         height: 120px;
     }
+
 
     #contact{
         padding: 60px 40px;
